@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{684E724D-AAED-486B-8F45-CC4FF0632115}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{95B9CA57-8527-44EE-AAC9-6AAF1808FDAE}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PartyInvites", "src\PartyInvites\PartyInvites.xproj", "{97B4AD89-466F-4238-BC40-C4ACD088BADF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97B4AD89-466F-4238-BC40-C4ACD088BADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B4AD89-466F-4238-BC40-C4ACD088BADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B4AD89-466F-4238-BC40-C4ACD088BADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B4AD89-466F-4238-BC40-C4ACD088BADF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97B4AD89-466F-4238-BC40-C4ACD088BADF} = {684E724D-AAED-486B-8F45-CC4FF0632115}
+	EndGlobalSection
+EndGlobal
