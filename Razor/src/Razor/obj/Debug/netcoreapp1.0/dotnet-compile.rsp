@@ -1,5 +1,5 @@
---temp-output:C:\Users\Logan\Documents\GitHub\pro-asp.net-core-mvc\LanguageFeatures\src\LanguageFeatures\obj\Debug\netcoreapp1.0\
---out:C:\Users\Logan\Documents\GitHub\pro-asp.net-core-mvc\LanguageFeatures\src\LanguageFeatures\bin\Debug\netcoreapp1.0\LanguageFeatures.dll
+--temp-output:C:\Users\Logan\Documents\GitHub\pro-asp.net-core-mvc\Razor\src\Razor\obj\Debug\netcoreapp1.0\
+--out:C:\Users\Logan\Documents\GitHub\pro-asp.net-core-mvc\Razor\src\Razor\bin\Debug\netcoreapp1.0\Razor.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -8,7 +8,7 @@
 --suppress-warning:CS1705
 --optimize:False
 --emit-entry-point:True
---output-name:LanguageFeatures
+--output-name:Razor
 --file-version:1.0.0.0
 --version:1.0.0.0
 --informational-version:1.0.0
@@ -164,11 +164,8 @@
 --reference:C:\Users\Logan\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Logan\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Logan\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\Logan\Documents\GitHub\pro-asp.net-core-mvc\LanguageFeatures\src\LanguageFeatures\obj\Debug\netcoreapp1.0\LanguageFeaturesdotnet-compile.deps.json",LanguageFeatures.deps.json
-C:\Users\Logan\Documents\GitHub\pro-asp.net-core-mvc\LanguageFeatures\src\LanguageFeatures\Program.cs
-C:\Users\Logan\Documents\GitHub\pro-asp.net-core-mvc\LanguageFeatures\src\LanguageFeatures\Startup.cs
-C:\Users\Logan\Documents\GitHub\pro-asp.net-core-mvc\LanguageFeatures\src\LanguageFeatures\Controllers\HomeController.cs
-C:\Users\Logan\Documents\GitHub\pro-asp.net-core-mvc\LanguageFeatures\src\LanguageFeatures\Models\MyAsyncMethods.cs
-C:\Users\Logan\Documents\GitHub\pro-asp.net-core-mvc\LanguageFeatures\src\LanguageFeatures\Models\MyExtensionMethods.cs
-C:\Users\Logan\Documents\GitHub\pro-asp.net-core-mvc\LanguageFeatures\src\LanguageFeatures\Models\Product.cs
-C:\Users\Logan\Documents\GitHub\pro-asp.net-core-mvc\LanguageFeatures\src\LanguageFeatures\Models\ShoppingCart.cs
+--resource:"C:\Users\Logan\Documents\GitHub\pro-asp.net-core-mvc\Razor\src\Razor\obj\Debug\netcoreapp1.0\Razordotnet-compile.deps.json",Razor.deps.json
+C:\Users\Logan\Documents\GitHub\pro-asp.net-core-mvc\Razor\src\Razor\Program.cs
+C:\Users\Logan\Documents\GitHub\pro-asp.net-core-mvc\Razor\src\Razor\Startup.cs
+C:\Users\Logan\Documents\GitHub\pro-asp.net-core-mvc\Razor\src\Razor\Controllers\HomeController.cs
+C:\Users\Logan\Documents\GitHub\pro-asp.net-core-mvc\Razor\src\Razor\Models\Product.cs

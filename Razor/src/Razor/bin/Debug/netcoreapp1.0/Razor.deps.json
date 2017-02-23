@@ -14,21 +14,20 @@
   },
   "targets": {
     ".NETCoreApp,Version=v1.0": {
-      "LanguageFeatures/1.0.0": {
+      "Razor/1.0.0": {
         "dependencies": {
           "Microsoft.NETCore.App": "1.0.1",
           "Microsoft.AspNetCore.Diagnostics": "1.0.0",
           "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
           "Microsoft.AspNetCore.Server.Kestrel": "1.0.1",
           "Microsoft.Extensions.Logging.Console": "1.0.0",
-          "Microsoft.AspNetCore.Mvc": "1.0.0",
-          "System.Net.Http": "4.1.0"
+          "Microsoft.AspNetCore.Mvc": "1.0.0"
         },
         "runtime": {
-          "LanguageFeatures.dll": {}
+          "Razor.dll": {}
         },
         "compile": {
-          "LanguageFeatures.dll": {}
+          "Razor.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/1.0.0": {
@@ -2815,7 +2814,7 @@
     }
   },
   "libraries": {
-    "LanguageFeatures/1.0.0": {
+    "Razor/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

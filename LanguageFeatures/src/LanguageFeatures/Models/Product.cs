@@ -12,6 +12,7 @@ namespace LanguageFeatures.Models
         public string Category { get; set; } = "Watersports";
         public Product Related { get; set; }
         public bool InStock { get; } = true;
+        public bool NameBeginsWithS => Name?[0] == 'S';
 
         public Product(bool stock = true)
         {
