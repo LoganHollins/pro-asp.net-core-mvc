@@ -8,9 +8,12 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Working with Visual Studio</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
 </head>
-<body>
-    <table>
+<body class="panel-body">
+    <h3 class="text-center">Products</h3>
+    <p>Request Time: @DateTime.Now.ToString("HH:mm:ss")</p>
+    <table class="table table-bordered table-striped">
         <thead>
             <tr><td>Name</td><td>Price</td></tr>
         </thead>
@@ -24,5 +27,10 @@
             }
         </tbody>
     </table>
+    <div class="text-center">
+        <a class="btn btn-primary" asp-action="AddProduct">
+            Add New Product
+        </a>
+    </div>
 </body>
 </html>
