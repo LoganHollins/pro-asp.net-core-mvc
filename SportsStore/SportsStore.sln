@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{272AF0E4-69D2-4D93-A5A3-130940F051E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A0048827-F673-4D42-8EDB-731A473621FD}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SportsStore", "src\SportsStore\SportsStore.xproj", "{E4D73B9F-2854-4715-B4B5-8ECD17BE4EF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FB652C88-B064-484D-8BEF-EFC03AA30B41}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SportsStore.Tests", "test\SportsStore.Tests\SportsStore.Tests.xproj", "{2A5F57F6-E153-484E-9A0C-233E0AB03E4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4D73B9F-2854-4715-B4B5-8ECD17BE4EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D73B9F-2854-4715-B4B5-8ECD17BE4EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D73B9F-2854-4715-B4B5-8ECD17BE4EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D73B9F-2854-4715-B4B5-8ECD17BE4EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A5F57F6-E153-484E-9A0C-233E0AB03E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5F57F6-E153-484E-9A0C-233E0AB03E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5F57F6-E153-484E-9A0C-233E0AB03E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5F57F6-E153-484E-9A0C-233E0AB03E4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4D73B9F-2854-4715-B4B5-8ECD17BE4EF5} = {272AF0E4-69D2-4D93-A5A3-130940F051E4}
+		{2A5F57F6-E153-484E-9A0C-233E0AB03E4B} = {FB652C88-B064-484D-8BEF-EFC03AA30B41}
+	EndGlobalSection
+EndGlobal
