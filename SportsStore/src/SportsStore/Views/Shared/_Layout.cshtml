@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width" />
     <title>SportsStore</title>
     <link rel="stylesheet" asp-href-include="lib/bootstrap/dist/css/*.min.css" />
+    <link rel="stylesheet" asp-href-include="/lib/fontawesome/css/*.css" />
 </head>
 <body>
     <div class="navbar navbar-inverse" role="navigation">
         <a class="navbar-brand" href="#">SPORTS STORE</a>
+        <div class="pull-right">
+            @await Component.InvokeAsync("CartSummary")
+        </div>
     </div>
     <div class="row panel">
         <div id="categories" class="col-xs-3">
-            Put something useful here later
+            @await Component.InvokeAsync("NavigationMenu")
         </div>
         <div class="col-xs-8">
             @RenderBody()
